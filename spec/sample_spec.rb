@@ -3,4 +3,13 @@ for i in 0..500
     it "This is test ##{i}" do
     end
   end
+
+end
+
+for i in 0..100
+  describe "Something is wrong" do
+    it "one is not equality to two  ##{i}" do
+      expect(1).to eq(2)
+    end
+  end
 end
